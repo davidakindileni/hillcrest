@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <title>Hillcrest Forte Services Company | Media Card</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      img {
+        max-width: 100%;
+      }
+      .card {
+        overflow: hidden;
+        width: 320px;
+        box-shadow: 1px 1px 4px 1px #888;
+        border-radius: 5px;
+        background-color: white;
+        overflow: hidden;
+      }
+      p, footer {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0 auto;
+        padding-top: 1em;
+        padding-left: 1em;
+        padding-right: 1em;
+      }
+      footer {
+        display: grid;
+        grid-template-columns: 50px 50px auto;
+        grid-gap: 0;
+        align-items: center;
+        padding-bottom: 1em;
+      }
+      button{
+        font-size: 1em;
+        height: 35px;
+      }
+      .viewButton{
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+      }
+      .editButton{
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+      }
+      span {
+        grid-column: 3 / 4;
+        grid-row: 1 / 2;
+        text-align: right;
+        margin-right: 1em;
+      }
+    </style>
+  </head>
+<body>
+    <article class="card">
+      <img src="https://picsum.photos/320/240" alt="card image">
+      <p>
+          This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+      </p>
+      <footer>
+        <button class="viewButton" type="button">View</button>
+        <button class="editButton" type="button">Edit</button>
+        <span>9 mins</span>
+      </footer>
+    </article>
+</body>
+</html>

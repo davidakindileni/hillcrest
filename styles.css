@@ -1,0 +1,378 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+
+body {
+  background-color: #cdc8cf;
+  font-family: Helvetica, Tahoma, sans-serif;
+  padding: 5px 25px;
+  font-size: 18px;
+  margin: 0;
+}
+
+#content {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.logo-box{
+    text-align: center;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 100px 100px 0 0;
+    padding: 0.5em;
+    margin: 40px 0px;
+}
+
+nav a {
+    color: black;
+    font-size: 1.1em;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: green;
+}
+
+nav ul {
+    list-style: none;
+    display: grid;
+    grid-gap: 1em;
+    grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
+    margin: 0;
+    text-align:center;
+}
+
+.home-content {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-gap: 1em;
+}
+
+.home-content-left {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.home-content-right {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+
+.home-content-left, .home-content-right {
+    padding: 15px;
+    font-size: 20px;
+}
+
+.home-content-center {
+    text-align: center;
+    grid-column: 1 / 3;
+    grid-row: 2 / 3;
+    width: 100%;
+}
+
+.gallery-pg1-img1, .gallery-pg1-img2, .gallery-pg1-img3, .gallery-pg2-img1, .gallery-pg2-img2 {
+    max-width: 100%;
+    height: 280px;
+    border: 1.5px solid gold;
+}
+
+.gallery-pg3-img1, .gallery-pg3-img2 {
+    max-width: 100%;
+    height: 280px;
+}
+
+.gallery-box1 {
+    margin: 40px 0px;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-gap: 1em;
+}
+
+.gallery-pg1-img1 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.gallery-pg1-img2 {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+
+.gallery-pg1-img3 {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+}
+
+.gallery-box2 {
+    margin: 40px 0px 10px 0px;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-gap: 1em;
+}
+
+.gallery-pg2-img1 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.gallery-pg2-img2 {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+
+.gallery-box3 {
+    margin: 40px 0px 10px 0px;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.gallery-pg2-img1 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.gallery-pg2-img2 {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+
+.pg2-headline-paragraph {
+    grid-column: 1 / 3;
+    grid-row: 2 / 3;
+  
+}
+
+.home-headline {
+    text-align: center;
+    margin: 50px 0px;
+    font-size: 40px;
+    border: 5px double;
+    border-radius: 25px;
+    padding: 0.5em 0em;
+    max-width: 100%
+}
+
+h1 {
+  font-family: "Merriweather", serif;
+  font-size: 32px;
+}
+
+h3 {
+    margin-top: 5px;
+    color: #6B4B3E;
+    font-size: 20px;
+    border: 1px solid #A63A50;
+    border-radius: 10px;
+    padding: 0.5em;
+    text-align: center;
+}
+
+.pg2-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-gap: 1em;
+}
+
+.left-paragraph1, .left-paragraph2, .left-paragraph3, .left-paragraph4, .right-paragraph1, .right-paragraph2, .right-paragraph3, .right-paragraph4 {
+    background-color: white;
+    padding-left: 30px;
+    border-radius: 20px;
+    font-size: 15px;
+}
+.left-headline1 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.left-paragraph1 {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    padding-left: 10px;
+}
+
+.left-headline2 {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+}
+
+.left-paragraph2 {
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+}
+
+.left-headline3 {
+    grid-column: 1 / 2;
+    grid-row: 5 / 6;
+}
+
+.left-paragraph3 {
+    grid-column: 1 / 2;
+    grid-row: 6 / 7;
+}
+
+.left-headline4 {
+    grid-column: 1 / 2;
+    grid-row: 7 / 8;
+}
+
+.left-paragraph4 {
+    grid-column: 1 / 2;
+    grid-row: 8 / 9;
+}
+
+.right-headline1 {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+
+.right-paragraph1 {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
+.right-headline2 {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+}
+
+.right-paragraph2 {
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+}
+
+.right-headline3 {
+    grid-column: 2 / 3;
+    grid-row: 5 / 6;
+}
+
+.right-paragraph3 {
+    grid-column: 2 / 3;
+    grid-row: 6 / 7;
+}
+
+.right-headline4 {
+    grid-column: 2 / 3;
+    grid-row: 7 / 8;
+}
+
+.right-paragraph4 {
+    grid-column: 2 / 3;
+    grid-row: 8 / 9;
+}
+
+footer {
+    margin-top: 200px;
+    display: grid;
+    grid-template-columns: auto 1fr;          
+    /* align-items: center; */
+    justify-items: end;
+}
+
+.cp-info {
+    font-size: 15px;
+}
+
+.button {
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.button1 {background-color: grey; /* Grey */
+}
+
+.social {
+    height: 55px;
+    grid-column: 2/5;
+    grid-row: 1/2;
+}
+
+/* CSS Styles for forms.html */
+
+form {
+  /* Center the form on the page */
+  margin: 30px auto;
+  width: 550px;
+  /* Form outline */
+  padding: 2em;
+  border: 1px solid black;
+  border-radius: 1em;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+form li + li {
+  margin-top: 1em;
+}
+
+label {
+  /* Uniform size & alignment */
+  display: inline-block;
+  width: 170px;
+  text-align: right;
+}
+
+input,
+textarea {
+  /* To make sure that all text fields have the same font settings
+     By default, textareas have a monospace font */
+  font: 1em sans-serif;
+
+  /* Uniform text field size */
+  width: 300px;
+  box-sizing: border-box;
+
+  /* Match form field borders */
+  border: 1px solid #999;
+}
+
+input:focus,
+textarea:focus {
+  /* Additional highlight for focused elements */
+  border-color: #000;
+}
+
+textarea {
+  /* Align multiline text fields with their labels */
+  vertical-align: top;
+
+  /* Provide space to type some text */
+  height: 10em;
+}
+
+button {
+  /* This extra margin represent roughly the same space as the space
+     between the labels and their text fields */
+  float: right;
+  margin-right: 6em;
+  margin-bottom: 50px;
+}
+
+#feedback {
+    background-color: antiquewhite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    /* make this element invisible until we are ready for it */
+    display: none;
+        
+}
+.moveDown {
+    margin-top: 3em;
+}
+
+.contactus-content {
+  text-align: center;
+  font-size: 16px;
+}
